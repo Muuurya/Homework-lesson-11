@@ -83,6 +83,7 @@ header {
   line-height: 22px;
   text-decoration-line: underline;
   color: #a1b5bb;
+  cursor: pointer;
 }
 .li2 {
   font-family: "Inter-Regular";
@@ -91,6 +92,7 @@ header {
   font-size: 13px;
   line-height: 22px;
   color: #a1b5bb;
+  cursor: pointer;
 }
 .b2 {
   font-family: "Schoolbell-Regular";
@@ -174,6 +176,9 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
+.wrap {
+  position: relative;
+}
 .wrapper2 {
   position: absolute;
   width: 800px;
@@ -181,8 +186,8 @@ header {
   background: #ffffff;
   box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
   border-radius: 30px;
-  top: 600px;
-  left: 550px;
+  top: -400px;
+  left: 190px;
 }
 .head3 {
   font-family: "Inter-SemiBold";
